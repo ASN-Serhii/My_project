@@ -9,11 +9,10 @@
 #[] => 0
 
 lst = [0, 1, 7, 2, 4, 8]
+print("0") if len(lst) == 0 else print(sum(lst[::2]) * lst[-1])
+
 #if len(lst) == 0:
 #    print("0")
 #else:
 #    result = sum(lst[::2]) * lst[-1]
 #    print(result)
-
-#if len(lst) == 0 :
-print("0") if len(lst) == 0 else print(sum(lst[::2]) * lst[-1])
